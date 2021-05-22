@@ -1,0 +1,568 @@
+/*variables*/
+$letra-principal: 'Kiwi Maru', serif;
+$letra-secundaria: 'Raleway', sans-serif;
+$box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+$color-negro: #373737;
+$color-papel: #f4f4f4;
+$color-plata: #dcd0d0;
+$color-oro: #c0b283;
+$ampliacion: scale(1.2,1.2);
+
+
+body{
+    background-color: $color-papel;
+}
+
+/*404*/
+
+.ups{
+    font-family: $letra-principal;
+    margin: 40px;
+}
+
+.volver-al-menu{
+    font-family: $letra-secundaria;
+    margin: 30px;
+}
+
+.volver-al-menu-bot{
+    color: $color-papel;
+    text-decoration: none;
+}
+
+.volver-al-menu-boton{
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+
+
+/*bloque del menu*/
+
+.menuPrincipal{
+    box-shadow: $box-shadow;
+}
+
+.menuPrincipal__miMenu{
+    font-family: $letra-principal;
+    
+}
+
+
+.logoGrande{
+    padding: 20px 0px 0px 0px;
+}
+
+
+/*bloque en div sobre-nosotros*/
+
+.sobre-nosotros{
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.sobre-nosotros__vanesa{
+    height: 25rem;
+}
+
+.sobre-nosotros__titulo{
+    
+    font-family: $letra-principal;
+    margin: 20px;
+}
+
+.sobre-nosotros__parrafo{
+    font-family: $letra-secundaria;
+    margin: 10px;
+    text-align: justify;
+}
+
+.sobre-nosotros__saber-mas__bot{
+    margin-left: 35%;
+    margin-bottom: 30px;
+}
+
+.sobre-nosotros__saber-mas{
+    color: white;
+    text-decoration: none;
+}
+
+.sobre-nosotros__saber-mas:hover{
+    color: $color-plata;
+}
+
+/*bloque en div nuestros-productos*/
+
+.nuestros-productos{
+    background-image: url(../imagenes/nuestrosproductos-fondocelular.jpg);
+    background-repeat: round;
+    padding-top: 20px;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+.nuestros-productos__titulo{
+    color: $color-papel;
+    font-family: $letra-principal;
+    text-align: right;
+    margin: 10px;
+}
+
+.nuestros-productos__parrafo{
+    color: $color-papel;
+    font-size: 1.2rem;
+   font-family: $letra-secundaria;
+   font-weight: bold;
+   text-align: center;
+   margin: 0px 10% 30px 10%;
+   background: rgba(20, 20, 20, 0.178);
+   border-radius: 15px;
+}
+
+.nuestros-productos__espacio-entre-fotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.nuestros-productos__bot{
+    margin-left: 50%;
+    margin-bottom: 30px;
+}
+
+/*bloque galería*/
+
+.galeria-de-fotos{
+    background-color: $color-plata;
+    margin-top: 50px;
+    border-radius: 15px;
+
+}
+
+.galeria-de-fotos__titulo{
+    font-family: $letra-principal;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nuestros-productos__foto{
+    background-color: $color-negro;
+    margin-bottom: 50px;
+}
+
+.ampliacion:hover{
+    transform: $ampliacion;
+}
+
+.galeria__boton{
+    margin-left: 40%;
+    margin-bottom: 30px;
+}
+
+/*contacto*/
+
+.contacto{
+    margin: 30px 20% 10px 20%;
+    padding: 10px;
+    border: solid 8px $color-oro;
+    background-color: $color-negro;
+    color: $color-papel;
+    border-radius: 15px;
+
+}
+
+.contacto__titulo{
+    font-family: $letra-principal;
+}
+
+.contacto__subtitulo{
+    font-family: $letra-secundaria;
+}
+
+.formulario__enviar{
+    padding: 10px 0px 10px 35%;
+}
+
+/*aside*/
+
+.menu-abajo{
+    width: 60%;
+    margin: 0px;
+    
+}
+
+.menu-abajo__lista{
+    margin-top: 40px;
+    list-style: none;
+    font-family: $letra-secundaria;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.menu-abajo__opcion{
+    text-decoration: none;
+    color: $color-negro;
+    
+}
+
+.redes{
+    width: 40%;
+}
+
+.redes__lista{
+    
+    margin: 0px;
+    list-style: none;
+}
+
+.redes__lista__item{
+    display: block;
+    padding: 5px;
+}
+
+footer{
+    margin: 20px;
+    text-align: center;
+}
+
+/*seccion sobre nosotros*/
+
+.seccion-sobre-nosotros{
+    margin: 30px 10px 30px 10px;
+    background-color: $color-plata;
+}
+
+.seccion-sobre-nosotros__tit{
+    font-family: $letra-principal;
+    margin: 30px 0% 30px 40%;
+    background-color: $color-oro;
+    color: $color-papel;
+}
+
+.seccion-sobre-nosotros__titulo{
+    opacity: 1;
+    font-family: $letra-principal;
+    display: inline;
+    background-color: $color-papel;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+.seccion-sobre-nosotros__parrafo{
+    vertical-align: middle;
+    font-family: $letra-secundaria;
+    display: inline;
+    color: $color-negro;
+    margin: 10% 10px 10px 10px;
+    
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#seccion-sobre-nosotros{
+    display: grid;
+    grid-template-areas: 
+    "titulo parrafo";
+}
+
+#titulo-sobre-nosotros{
+    grid-area: titulo;
+}
+
+#parrafo-sobre.-nosotros{
+    grid-area: parrafp;
+}
+
+/*seccion de nuestros productos*/
+
+.seccion-nuestros-productos{
+    font-family: $letra-secundaria;
+}
+
+.seccion-nuestros-productos__titulo--principal{
+    font-family: $letra-principal;
+    margin: 30px 0% 30px 40%;
+    background-color: $color-oro;
+    color: $color-papel;
+
+}
+
+.seccion-nuestros-productos__parrafo{
+    margin: 30px;
+}
+
+.acordeon-de-productos{
+    padding: 5px;
+    margin: 30px 10% 30px 10%;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: $color-plata;
+    color: $color-negro;
+    font-family: $letra-principal;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    display: inline;
+}
+
+.accordion-button{
+    background-color: $color-plata;
+    color: $color-negro;
+    font-family: $letra-principal;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: initial;
+}
+
+.accordion-button:focus{
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    box-shadow: 0 0 0 0.25rem $color-plata;
+}
+
+.imgLogo{
+    display: none;
+}
+
+
+/*seccion galeria*/
+
+.fotos-galeria{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.fotos-galeria__fotos.g{
+    transform: $ampliacion;
+}
+
+.galeria-titulo{
+    font-family: $letra-principal;
+    margin: 30px 0% 30px 40%;
+    background-color: $color-oro;
+    color: $color-papel;
+}
+
+.variedad{
+    font-family: $letra-secundaria;
+    margin: 20px 0% 30px 10%;
+    font-weight: bold;
+}
+
+/*seccion contacto*/
+
+.form-control{
+    
+    
+    margin-top: 15px;
+}
+
+.seccion-contacto{
+    margin: 30px;
+}
+
+.seccion-contacto__titulo{
+    font-family: $letra-principal;
+    margin: 30px 0% 30px 40%;
+    background-color: $color-oro;
+    color: $color-papel;
+}
+
+.seccion-contacto__subtitulo{
+    font-family: $letra-secundaria;
+}
+
+@media only screen and (min-width: 961px) {
+
+/*grid en div sobre nosotros*/
+
+#sobre-nosotros{
+    display: grid;
+    grid-template-areas: 
+    "foto . ."
+    "foto titulo ."
+    "foto parrafo boton";
+    margin: 50px;
+}
+
+#vanesa{
+    grid-area: foto;
+}
+
+#titulo{
+    grid-area: titulo;
+}
+
+#parrafo{
+    grid-area: parrafo;
+}
+
+#botonSaberMas{
+    grid-area: boton;
+}
+
+/*modificaciones en div sobre-nosotros*/
+.sobre-nosotros__titulo{
+    padding: 150px 0px 0px 0px;
+    
+    font-family: $letra-principal;
+}
+
+.sobre-nosotros__parrafo{
+    font-family: $letra-secundaria;
+    margin-top: 10px;
+    text-align:left;
+    font-size: 1rem;
+    margin-right: 160px;
+}
+
+.sobre-nosotros__saber-mas__bot{
+    margin-left: 75%;
+    margin-bottom: 30px;
+}
+
+/*modificaciones en div nuestros productos*/
+
+.nuestros-productos{
+    background-image: url(../imagenes/fondo-productos.jpg);
+    background-repeat:round;
+    padding-top: 20px;
+    margin: 50px 70px 0px 70px;
+    border-radius: 15px;
+}
+
+.nuestros-productos__titulo{
+    color: $color-papel;
+    font-weight: normal;
+}
+
+
+.nuestros-productos__espacio-entre-fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+/*modificaciones en galeria*/
+
+.galeria__boton{
+    margin-left: 48%;
+    margin-bottom: 30px;
+}
+
+/*modificaciones en contacto*/
+.formulario__enviar{
+    padding: 10px 0px 10px 45%;
+}
+
+/*modificaciones en seccion sobre nosotros*/
+
+.seccion-sobre-nosotros{
+    margin: 30px 20% 5px 20%;
+    background-color: $color-plata
+}
+
+.seccion-sobre-nosotros__parrafo{
+    vertical-align: middle;
+    font-family: $letra-secundaria;
+    display: inline;
+    color: $color-negro;
+    margin: 10% 10% 5% 10%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 2;
+}
+
+/*modificaciones en nuestros productos*/
+
+.detalleDeProductos{
+    display: grid;
+    grid-template-areas: 
+    "variedades img1 img2 img3";
+}
+
+.variedades{
+    grid-area: variedades;
+}
+
+.imagen-uno{
+    grid-area: img1;
+}
+
+.imagen-dos{
+    grid-area: img2;
+}
+
+.imagen-tres{
+    grid-area: img3;
+}
+
+.imgLogo{
+    display: inline;
+}
+
+/*galeria*/
+
+.fotos-galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/*contacto*/
+
+.form-control{
+    padding: 10px;
+    margin-top: 15px;
+}
+
+/*aside*/
+
+.menu-abajo{
+    width: 70%;
+    margin: 0px;
+    
+}
+
+.menu-abajo__lista{
+    margin: 50px;
+    list-style: none;
+    font-family: $letra-secundaria;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+.menu-abajo__opcion{
+    text-decoration: none;
+    color: $color-negro;
+    
+}
+
+.redes{
+    width: 30%;
+}
+
+.redes__lista{
+    
+    margin: 50px;
+    list-style: none;
+}
+
+.redes__lista__item{
+    display: inline;
+    padding: 10px;
+}
+
+}
+
+/*@media only screen and (min-width: 401px) and (max-width: 960px){
+    
+}*/
